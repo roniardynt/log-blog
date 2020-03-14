@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `The Plain Gatsby`,
-    description: `A simple minimalist starter for your personal blog.`,
-    author: `@wangonya`,
+    title: `Log`,
+    description: `Log for write my code snippet`,
+    author: `@roniardynt`,
     avatar: `https://avatars0.githubusercontent.com/u/19375569?s=460&v=4`,
-    siteUrl: `https://the-plain-gatsby.netlify.com`,
+    siteUrl: `https://log.roniardiyanto.com`,
   },
   plugins: [
     {
@@ -55,6 +55,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-netlify-cms`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
