@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Log`,
-    description: `Log for write my code snippet`,
+    description: `Write Code, Solve Problems`,
     author: `@roniardynt`,
-    avatar: `https://avatars0.githubusercontent.com/u/19375569?s=460&v=4`,
-    siteUrl: `https://log.roniardiyanto.com`,
+    avatar: `https://avatars0.githubusercontent.com/u/35429278?s=460&u=7892d0b89984707b85cff53f96a63af53d2a4e97&v=4`,
+    siteUrl: `https://roon.ninja`,
   },
   plugins: [
     {
