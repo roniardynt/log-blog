@@ -9,12 +9,13 @@ html {
   height: 100%;
 }
 body {
+  background-color: #1C1E29;
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #333333;
+  color: #FFFFFF;
   padding: 20px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -23,6 +24,24 @@ body {
     padding: 35px 50px;
   }
 }
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: transparent;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: white;
+	background: none;
+	text-shadow: none;
+}
+
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string {
+  color: #9a6e3a;
+  background: transparent;
+}
+
 h1,
 h2,
 h3,
@@ -31,7 +50,7 @@ h5,
 h6 {
     margin-bottom: 1rem;
     line-height: 1.25;
-    color: #313131;
+    color: #DD920C;
 }
 h1 {
   font-size: 2rem;
@@ -45,6 +64,10 @@ h2 {
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
+}
+
+.code {
+  color: #FD4372;
 }
 
 h4,
@@ -76,7 +99,7 @@ blockquote {
   border-left: 5px solid #ccc;
   margin: 40px 0;
   padding: 5px 30px;
-  background: #eee;
+  background: transparent;
 }
 .logo {
   position: relative;
@@ -100,7 +123,7 @@ blockquote {
     display: inline-block;
     text-align: center;
     line-height: 100px;
-    border: 5px solid #fff;
+    border: 5px solid #DD920C;
     box-sizing: border-box;
     &:hover,
     &:focus {
@@ -182,7 +205,7 @@ pre,
 }
 code {
   color: #f14e32;
-  background: #eee;
+  background: transparent;
   padding: 2px 6px;
   font-size: 13px;
 }
@@ -194,8 +217,8 @@ pre {
   line-height: 1.4;
   white-space: pre;
   overflow-x: auto;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  background-color: transparent;
+  border: 2px solid #393c5563;
   padding: 1rem;
   code {
     font-size: 100%;
@@ -209,7 +232,7 @@ table {
   table-layout: fixed;
   margin: 45px 0;
   thead {
-    background: #f2f2f2;
+    background: transparent;
   }
   th {
     text-align: left;
@@ -227,10 +250,12 @@ article {
   max-width: 500px;
   margin: 0 auto;
   h1.title {
+    color: #ffffff;
     line-height: 1.4em;
     text-align: center;
     font-size: 1.4em;
   }
+  
   .divider {
     background: #ddd;
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
@@ -245,7 +270,7 @@ article {
   }
   hr {
     border: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #FFA600;
     margin: 30px 0;
   }
   p {
@@ -264,7 +289,7 @@ article {
     margin: 50px auto;
     display: block;
     font-size: 0.8em;
-    color: #666;
+    color: #fff;
     p {
       line-height: 1rem;
       font-weight: normal;
@@ -324,7 +349,7 @@ article {
 }
 .footer {
   margin-top: 50px;
-  color: #777;
+  color: #3F9A66;
   a {
     border: none;
     font-weight: bold;
@@ -349,10 +374,11 @@ section {
       a {
         text-decoration: none;
         border: 0;
-        color: #000;
+        color: #FFFFFF;
         box-sizing: border-box;
       }
       .post-date {
+        color: #03F1F3;
         float: right;
         margin: 0 0 0 20px;
       }
@@ -365,7 +391,7 @@ section {
       @media (min-width: 992px) {a {
           border-bottom: 2px solid transparent;
           &:hover {
-            border-color: #000;
+            border-color: #FFA600;
           }
         }
       }
